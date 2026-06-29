@@ -1,0 +1,69 @@
+id: training-prompt-builder
+name: 智小荣培训提示词助手
+desc: Chrome 扩展，在智小荣对话页一键生成企业培训课程提示词，覆盖大纲、详情与 PPT 逐字稿三场景，支持表单填写、封装提示词自定义与自动发送，告别反复手写长提示词。
+version: 1.0.0
+updated: 2026-06-10
+tags:
+  - Chrome扩展
+  - 培训
+  - 提示词
+  - 效率工具
+demoUrl: 暂无
+downloadUrl: https://retailstorevoc.oss-cn-beijing.aliyuncs.com/training-prompt-builder-chrome-extension.zip
+cover: /covers/training-prompt-builder.png
+
+# ---------- 复制本区块，每个产品填一份 ----------
+
+id: honor-deck-builder
+name: 荣耀风格 PPT 生成器
+desc: 纯前端 H5 工具，快速构建荣耀风格 PPT 汇报，支持案例库复用、可视化编辑与一键导出可部署包，解决传统 PPT 制作繁琐、难以复用的问题。
+version: 0.4.0
+updated: 2026-06-29
+tags:
+  - PPT
+  - H5
+  - 可视化编辑
+  - 效率工具
+demoUrl: 待补充
+downloadUrl: https://retailstorevoc.oss-cn-beijing.aliyuncs.com/honor-deck-builder-v0.4.zip
+cover: /covers/honor-deck-builder.png
+
+# 以下为可选备注，不会写入 products.json
+备注-负责人: 
+备注-OSS路径: 
+备注-待办: 
+# ---------- 复制本区块，每个产品填一份 ----------
+
+id: store-voc-asr-toolkit
+name: 智听门店·录音 VOC 洞察工具链
+desc: 面向门店录音场景的一站式 H5 工具链：音频预处理、语音转写、语义分析与 VOC 看板投屏展示，并支持 AI 生成约 300 字洞察总结，帮助团队快速从原声到可汇报的客户之声结论。
+version: 1.0.0
+updated: 2026-05-29
+tags:
+  - VOC
+  - ASR
+  - AI
+  - 语义分析
+demoUrl: 暂无
+downloadUrl: https://retailstorevoc.oss-cn-beijing.aliyuncs.com/store-voc-asr-toolkit-v1.0.0.zip
+cover: /covers/store-voc-asr-toolkit.png
+# ---------- 复制本区块，每个产品填一份 ----------
+
+id: honor-marketing-assets-generator
+name: 荣耀社媒生成器
+desc: 面向荣耀门店的 AI 营销内容平台，一键生成种草文案与开箱、人像、城市限定等多场景营销海报，助力门店爆款内容产出。
+version: 1.0.0
+updated: 2026-06-29
+tags:
+  - AI
+  - 营销
+  - 设计
+  - 效率
+demoUrl: https://honor-marketing-assets-generator.vercel.app/
+downloadUrl: 暂无
+cover: /covers/honor-marketing-assets-generator.png
+
+# 以下为可选备注，不会写入 products.json
+备注-负责人: 待补充
+备注-OSS路径: 待补充
+备注-待办: 补充 Vercel 在线地址；打包 ZIP 上传 OSS；制作并放置封面图到导航站 public/covers/

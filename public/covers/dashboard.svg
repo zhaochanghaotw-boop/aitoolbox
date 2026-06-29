@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" fill="none">
+  <rect width="400" height="240" rx="12" fill="#1a1a2e"/>
+  <rect x="60" y="50" width="80" height="60" rx="6" fill="#2d2d44" stroke="#22d3ee" stroke-width="1"/>
+  <rect x="160" y="50" width="80" height="60" rx="6" fill="#2d2d44" stroke="#22d3ee" stroke-width="1"/>
+  <rect x="260" y="50" width="80" height="60" rx="6" fill="#2d2d44" stroke="#22d3ee" stroke-width="1"/>
+  <rect x="60" y="130" width="280" height="70" rx="6" fill="#2d2d44" stroke="#22d3ee" stroke-width="1"/>
+  <rect x="75" y="70" width="20" height="30" rx="2" fill="#22d3ee" opacity="0.6"/>
+  <rect x="105" y="60" width="20" height="40" rx="2" fill="#22d3ee" opacity="0.8"/>
+  <text x="200" y="220" text-anchor="middle" fill="#9ca3af" font-family="system-ui" font-size="14">Dashboard</text>
+</svg>

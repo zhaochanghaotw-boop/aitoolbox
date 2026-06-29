@@ -1,0 +1,103 @@
+:root {
+  --bg: #09090b;
+  --surface: #111113;
+  --surface-elevated: #18181b;
+  --surface-hover: #1f1f23;
+  --border: #27272a;
+  --border-hover: #3f3f46;
+  --text-primary: #fafafa;
+  --text-secondary: #a1a1aa;
+  --text-tertiary: #71717a;
+  --accent: #818cf8;
+  --accent-muted: rgba(99, 102, 241, 0.12);
+  --font-sans: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  --font-mono: 'SF Mono', 'Fira Code', 'Fira Mono', Menlo, monospace;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  font-family: var(--font-sans);
+  font-size: 16px;
+  line-height: 1.5;
+  color: var(--text-primary);
+  background: var(--bg);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+#root {
+  min-height: 100vh;
+}
+
+.btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  padding: 0.5rem 1rem;
+  font-size: 0.8125rem;
+  font-weight: 500;
+  text-decoration: none;
+  border-radius: 8px;
+  border: 1px solid transparent;
+  cursor: pointer;
+  transition: background 0.15s, border-color 0.15s, color 0.15s, box-shadow 0.15s;
+  white-space: nowrap;
+}
+
+.btn--primary {
+  color: #fff;
+  background: var(--accent);
+  border-color: var(--accent);
+}
+
+.btn--primary:hover {
+  background: #6366f1;
+  border-color: #6366f1;
+  box-shadow: 0 0 20px rgba(99, 102, 241, 0.3);
+}
+
+.btn--secondary {
+  color: var(--text-primary);
+  background: transparent;
+  border-color: var(--border);
+}
+
+.btn--secondary:hover {
+  background: var(--surface-hover);
+  border-color: var(--border-hover);
+}
+
+.btn--disabled {
+  color: var(--text-tertiary) !important;
+  background: var(--surface-elevated) !important;
+  border-color: var(--border) !important;
+  cursor: not-allowed;
+  opacity: 0.55;
+  box-shadow: none !important;
+  pointer-events: none;
+}
+
+.btn--primary.btn--disabled {
+  background: #3f3f46 !important;
+  border-color: #3f3f46 !important;
+  color: #71717a !important;
+}
+
+::selection {
+  background: rgba(99, 102, 241, 0.3);
+  color: var(--text-primary);
+}
+
+input[type="search"]::-webkit-search-cancel-button {
+  display: none;
+}

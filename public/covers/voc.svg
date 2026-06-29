@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" fill="none">
+  <rect width="400" height="240" rx="12" fill="#1a1a2e"/>
+  <polyline points="60,180 100,120 140,150 180,80 220,110 260,60 300,90 340,40" stroke="#a78bfa" stroke-width="2.5" fill="none"/>
+  <circle cx="100" cy="120" r="5" fill="#a78bfa"/>
+  <circle cx="180" cy="80" r="5" fill="#a78bfa"/>
+  <circle cx="260" cy="60" r="5" fill="#a78bfa"/>
+  <circle cx="340" cy="40" r="5" fill="#a78bfa"/>
+  <text x="200" y="210" text-anchor="middle" fill="#9ca3af" font-family="system-ui" font-size="14">VOC Analytics</text>
+</svg>

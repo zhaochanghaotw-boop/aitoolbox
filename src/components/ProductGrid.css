@@ -1,0 +1,52 @@
+.product-grid-section {
+  padding: 0 1.5rem 4rem;
+}
+
+.product-grid-section__inner {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.product-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+  gap: 1.25rem;
+}
+
+.product-grid__state {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  padding: 4rem 1rem;
+  color: var(--text-secondary);
+  font-size: 0.9rem;
+}
+
+.product-grid__state--error {
+  color: #f87171;
+}
+
+.spinner {
+  width: 28px;
+  height: 28px;
+  border: 2px solid var(--border);
+  border-top-color: var(--accent);
+  border-radius: 50%;
+  animation: spin 0.7s linear infinite;
+}
+
+@keyframes spin {
+  to { transform: rotate(360deg); }
+}
+
+@media (max-width: 480px) {
+  .product-grid-section {
+    padding: 0 1rem 3rem;
+  }
+
+  .product-grid {
+    grid-template-columns: 1fr;
+  }
+}

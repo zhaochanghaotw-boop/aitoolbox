@@ -1,0 +1,49 @@
+.product-desc {
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem;
+}
+
+.product-desc__text {
+  margin: 0;
+  font-size: 0.85rem;
+  color: var(--text-secondary);
+  line-height: 1.55;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.product-desc__text--expanded {
+  display: block;
+  -webkit-line-clamp: unset;
+  overflow: visible;
+}
+
+.product-desc__toggle {
+  align-self: flex-start;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.25rem;
+  padding: 0;
+  font-size: 0.8rem;
+  font-weight: 500;
+  color: var(--accent);
+  background: none;
+  border: none;
+  cursor: pointer;
+  transition: color 0.15s, opacity 0.15s;
+}
+
+.product-desc__toggle:hover {
+  color: #a5b4fc;
+}
+
+.product-desc__chevron {
+  transition: transform 0.2s;
+}
+
+.product-desc__chevron--up {
+  transform: rotate(180deg);
+}

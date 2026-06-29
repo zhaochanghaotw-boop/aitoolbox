@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" fill="none">
+  <rect width="400" height="240" rx="12" fill="#1a1a2e"/>
+  <rect x="70" y="45" width="260" height="150" rx="8" fill="#2d2d44" stroke="#ec4899" stroke-width="1.5"/>
+  <circle cx="130" cy="95" r="20" fill="#ec4899" opacity="0.4"/>
+  <polygon points="90,170 160,110 220,150 310,80 330,170" fill="#6366f1" opacity="0.3"/>
+  <text x="200" y="210" text-anchor="middle" fill="#9ca3af" font-family="system-ui" font-size="14">Image Studio</text>
+</svg>

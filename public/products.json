@@ -1,0 +1,68 @@
+[
+  {
+    "id": "honor-marketing-assets-generator",
+    "name": "荣耀社媒生成器",
+    "desc": "面向荣耀门店的 AI 营销内容平台，一键生成种草文案与开箱、人像、城市限定等多场景营销海报，助力门店爆款内容产出。",
+    "version": "1.0.0",
+    "updated": "2026-06-29",
+    "tags": ["AI", "营销", "设计", "效率"],
+    "demoUrl": "https://honor-marketing-assets-generator.vercel.app/",
+    "downloadUrl": "",
+    "cover": "/covers/honor-marketing-assets-generator.jpg"
+  },
+  {
+    "id": "honor-deck-builder",
+    "name": "荣耀风格 PPT 生成器",
+    "desc": "纯前端 H5 工具，快速构建荣耀风格 PPT 汇报，支持案例库复用、可视化编辑与一键导出可部署包，解决传统 PPT 制作繁琐、难以复用的问题。",
+    "version": "0.4.0",
+    "updated": "2026-06-29",
+    "tags": ["PPT", "H5", "可视化编辑", "效率工具"],
+    "demoUrl": "",
+    "downloadUrl": "https://retailstorevoc.oss-cn-beijing.aliyuncs.com/honor-deck-builder-v0.4.zip",
+    "cover": "/covers/honor-deck-builder.jpg"
+  },
+  {
+    "id": "training-prompt-builder",
+    "name": "智小荣培训提示词助手",
+    "desc": "Chrome 扩展，在智小荣对话页一键生成企业培训课程提示词，覆盖大纲、详情与 PPT 逐字稿三场景，支持表单填写、封装提示词自定义与自动发送，告别反复手写长提示词。",
+    "version": "1.0.0",
+    "updated": "2026-06-10",
+    "tags": ["Chrome扩展", "培训", "提示词", "效率工具"],
+    "demoUrl": "",
+    "downloadUrl": "https://retailstorevoc.oss-cn-beijing.aliyuncs.com/training-prompt-builder-chrome-extension.zip",
+    "cover": "/covers/training-prompt-builder.jpg"
+  },
+  {
+    "id": "store-voc-asr-toolkit",
+    "name": "智听门店·录音 VOC 洞察工具链",
+    "desc": "面向门店录音场景的一站式 H5 工具链：音频预处理、语音转写、语义分析与 VOC 看板投屏展示，并支持 AI 生成约 300 字洞察总结，帮助团队快速从原声到可汇报的客户之声结论。",
+    "version": "1.0.0",
+    "updated": "2026-05-29",
+    "tags": ["VOC", "ASR", "AI", "语义分析"],
+    "demoUrl": "",
+    "downloadUrl": "https://retailstorevoc.oss-cn-beijing.aliyuncs.com/store-voc-asr-toolkit-v1.0.0.zip",
+    "cover": "/covers/store-voc-asr-toolkit.jpg"
+  },
+  {
+    "id": "sales-auth-letter",
+    "name": "销售授权函批量生成器",
+    "desc": "纯前端 H5 工具，上传 Excel 数据表与 Word 模板，一键在浏览器本地批量生成个性化销售授权函，无需安装任何软件，解决手动逐份填写授权函耗时、易错的问题。",
+    "version": "0.1.0",
+    "updated": "2026-06-29",
+    "tags": ["授权函", "Excel", "批量生成", "H5"],
+    "demoUrl": "",
+    "downloadUrl": "",
+    "cover": "/covers/sales-auth-letter.jpg"
+  },
+  {
+    "id": "subsidy-contract-batch",
+    "name": "补贴合同批量生成器",
+    "desc": "上传 Word 合同母版与 Excel 活动单，在浏览器本地批量填充占位符并一键打包下载，输出文件名自动匹配母版类型，告别手工逐份改合同。",
+    "version": "0.1.0",
+    "updated": "2026-05-25",
+    "tags": ["合同", "Excel", "批量", "效率"],
+    "demoUrl": "",
+    "downloadUrl": "",
+    "cover": "/covers/subsidy-contract-batch.jpg"
+  }
+]
