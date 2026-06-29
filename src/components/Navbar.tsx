@@ -6,7 +6,6 @@ export function Navbar() {
     <header className="navbar">
       <div className="navbar__inner">
         <a href="#" className="navbar__logo">
-          <span className="navbar__logo-icon">◆</span>
           <span className="navbar__logo-text">
             {siteConfig.name}
             <span className="navbar__logo-author">{siteConfig.author}</span>

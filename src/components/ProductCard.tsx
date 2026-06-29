@@ -16,11 +16,13 @@ export function ProductCard({ product }: ProductCardProps) {
   return (
     <article className="product-card">
       <div className="product-card__cover">
-        <img
-          src={`${base}${product.cover.replace(/^\//, '')}`}
-          alt={product.name}
-          loading="lazy"
-        />
+        <div className="product-card__cover-frame">
+          <img
+            src={`${base}${product.cover.replace(/^\//, '')}`}
+            alt={product.name}
+            loading="lazy"
+          />
+        </div>
       </div>
       <div className="product-card__body">
         <div className="product-card__header">

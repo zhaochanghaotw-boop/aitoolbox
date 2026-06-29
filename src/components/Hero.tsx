@@ -10,7 +10,6 @@ interface HeroProps {
 export function Hero({ search, onSearchChange, productCount }: HeroProps) {
   return (
     <section className="hero">
-      <div className="hero__glow" aria-hidden="true" />
       <div className="hero__content">
         <p className="hero__badge">共 {productCount} 款工具</p>
         <h1 className="hero__title">{siteConfig.title}</h1>

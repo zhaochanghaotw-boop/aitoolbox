@@ -6,7 +6,6 @@ export function Footer() {
     <footer id="about" className="footer">
       <div className="footer__inner">
         <div className="footer__brand">
-          <span className="footer__logo-icon">◆</span>
           <span className="footer__brand-text">
             {siteConfig.name}
             <span className="footer__brand-author">{siteConfig.author}</span>
