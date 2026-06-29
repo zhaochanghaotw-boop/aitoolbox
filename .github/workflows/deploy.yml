@@ -29,8 +29,8 @@ jobs:
 
       - run: npm run build
         env:
-          # 绑定自有域名时用根路径 /；仅用 github.io/仓库名 访问时改为 /仓库名/
-          VITE_BASE_PATH: /
+          # github.io/仓库名 访问用 /仓库名/；绑定自有域名后改为 /
+          VITE_BASE_PATH: /aitoolbox/
 
       - uses: actions/upload-pages-artifact@v3
         with:
